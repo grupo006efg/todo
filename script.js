@@ -19,8 +19,8 @@ function addTask() {
     if (newTask) {
         tasks.push(newTask);//Adicionar a nova tarefa ao array
         updateTaskList();
+ }
 }
-
 
 
 
