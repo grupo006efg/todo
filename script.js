@@ -12,6 +12,14 @@ function updateTaskList(){
         
     });
 }
+//função para adicionar uma nova tarefa 
+function addTask() {
+    const taklnput = document.getElementById('tasklnput');
+    const newTask = tasklnput.value.trim()
+    if (newTask) {
+        tasks.push(newTask);//Adicionar a nova tarefa ao array
+        updateTaskList();
+}
 
 
 
